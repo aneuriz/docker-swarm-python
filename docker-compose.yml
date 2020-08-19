@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  python:
+    build: .
+    image: ymatos/example12:1.0
+    ports: 
+      - 5000:5000
